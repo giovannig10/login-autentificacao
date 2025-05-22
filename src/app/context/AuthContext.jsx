@@ -3,7 +3,7 @@
 import { createContext, useState, useContext, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Cookies from "js-cookie";
-import { login, register, logout } from "../services/authService";
+import { login, register, logout } from "../services/authServices.js";
 
 // Criação do contexto de autenticação
 const AuthContext = createContext({});
